@@ -41,6 +41,7 @@ class SkilsPageController extends Controller
      */
     public function store(Request $request)
     {
+        
         //
         $this->validate($request,[
             'tool' => 'required|string',
